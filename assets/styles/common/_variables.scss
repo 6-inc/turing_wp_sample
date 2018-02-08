@@ -52,14 +52,13 @@ $theme-colors: (
 
 
 // Settings for the `<body>` element.
-$body-bg:       $white !default;
-$body-color:    $gray-900 !default;
+$body-bg:       #fff;
+$body-color:    #212529;
 
 
 // Style anchor elements.
 $link-color:            theme-color("primary") !default;
 $link-decoration:       none !default;
-$link-hover-color:      darken($link-color, 15%) !default;
 $link-hover-decoration: underline !default;
 
 
@@ -85,7 +84,7 @@ $h4-font-size: 1.5rem !default;
 $h5-font-size: 1.25rem !default;
 $h6-font-size: 1rem !default;
 
-$headings-margin-bottom: ($spacer / 2) !default;
+
 $headings-font-family:   inherit !default;
 $headings-font-weight:   500 !default;
 $headings-line-height:   1.1 !default;
