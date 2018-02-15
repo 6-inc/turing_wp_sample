@@ -35,3 +35,7 @@
 4. _variables.scssの$body-colorを編集
 
 ### ヘッダーを作る
+
+1. tamplates/headerのcontainerクラスを外し全幅表示に
+2. サイトタイトルのaタグにクラスをつける。
+3. 

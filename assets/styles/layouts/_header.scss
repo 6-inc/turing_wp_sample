@@ -1,0 +1,15 @@
+.menu-my-menu-container{
+	width: 100%;
+	ul{
+		width: 50%;
+		display: table;
+		li{
+			display: table-cell;
+			text-align: center;
+			a{
+				padding: 0.5rem;
+				color: rgba(0,0,0,.9);
+			}
+		}
+	}
+}
