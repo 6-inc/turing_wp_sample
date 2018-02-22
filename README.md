@@ -37,5 +37,17 @@
 ### ヘッダーを作る
 
 1. tamplates/headerのcontainerクラスを外し全幅表示に
-2. サイトタイトルのaタグにクラスをつける。
-3. 
+2. サイトタイトルのaタグにbootstrapのクラスをつけて見た目を整える
+3. メニューをbootstrapのクラスと_header.scssで整える
+
+### トップページを作る
+
+1. bg-fadedクラスを作る
+2. front-page.phpを作る
+3. スライドショーを作る
+	1. juicy slider を入れる https://github.com/vanting/juicyslider
+	2. サンプル画像・テキストで動かしてみる
+	3. 見た目を整える
+	4. カスタム投稿"slider"を作る
+	5. front-page.phpにスライドショーのループを作って当てはめる
+4. ブログ投稿のループを作る
