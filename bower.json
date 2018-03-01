@@ -8,6 +8,9 @@
   "private": true,
   "dependencies": {
     "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-beta",
-    "popper.js": "^1.12.3"
+    "popper.js": "^1.12.3",
+    "bower": "*",
+    "install": "^1.0.4",
+    "flexslider": "FlexSlider#^2.7.0"
   }
 }

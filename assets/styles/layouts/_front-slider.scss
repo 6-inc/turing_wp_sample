@@ -1,0 +1,18 @@
+.flexslider{
+  img{
+    width: 100%;
+    display: block;
+  }
+  p.flex-caption {
+    width: 100%;
+    padding: 2%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0;
+  }
+}

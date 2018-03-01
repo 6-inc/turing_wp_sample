@@ -1,8 +1,10 @@
 (function($) {
-  // Site title
-  wp.customize('blogname', function(value) {
-    value.bind(function(to) {
-      $('.brand').text(to);
-    });
+
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
   });
+});
+
 })(jQuery);

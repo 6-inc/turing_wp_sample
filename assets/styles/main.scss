@@ -5,6 +5,10 @@
 @import "../../bower_components/bootstrap/scss/bootstrap.scss";
 // endbower
 
+// bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+
 @import "common/global";
 @import "components/buttons";
 @import "components/comments";
@@ -17,3 +21,5 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+@import "layouts/front-page";
+@import "layouts/front-slider";

@@ -32,7 +32,7 @@
 1. 画像をassets/imagesに入れる
 2. gulp
 3. gulp watch
-4. _variables.scssの$body-colorを編集
+4. _global.scssにてbodyの背景を指定
 
 ### ヘッダーを作る
 
@@ -45,9 +45,9 @@
 1. bg-fadedクラスを作る
 2. front-page.phpを作る
 3. スライドショーを作る
-	1. juicy slider を入れる https://github.com/vanting/juicyslider
-	2. サンプル画像・テキストで動かしてみる
-	3. 見た目を整える
+	1. flex slider を入れる http://flexslider.woothemes.com/
+	2. $ bower install FlexSlider
+	3. assets/manifest.json
 	4. カスタム投稿"slider"を作る
 	5. front-page.phpにスライドショーのループを作って当てはめる
 4. ブログ投稿のループを作る
