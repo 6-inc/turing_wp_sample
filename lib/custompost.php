@@ -37,7 +37,7 @@ class slider {
             'menu_icon' => null,
             'capability_type' => 'post',
             'hierarchical' => true,
-            'supports' => array('title','editor','thumbnail','custom-fields'),
+            'supports' => array('title','thumbnail','custom-fields'),
             'has_archive' => false,
             'rewrite' => array('slug' => 'slider'),
             'query_var' => true,

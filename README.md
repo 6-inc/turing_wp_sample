@@ -46,8 +46,16 @@
 2. front-page.phpを作る
 3. スライドショーを作る
 	1. flex slider を入れる http://flexslider.woothemes.com/
-	2. $ bower install FlexSlider
+	2. $ bower install FlexSlider --save
 	3. assets/manifest.json
-	4. カスタム投稿"slider"を作る
+	4. カスタム投稿"slider"を作る lib/custompost.phpを作って、カスタム投稿（slider）を定義（functions.phpにも追記）
 	5. front-page.phpにスライドショーのループを作って当てはめる
-4. ブログ投稿のループを作る
+4. サイトの紹介を書く
+5. フッターを書く
+
+### 投稿一覧ページを作る
+
+1. 投稿一覧表示用の固定ページを作る（同様にフロントページも作る）
+2. 管理画面の「表示設定」から「フロントページの設定」にてフロントページと投稿ページを設定する
+3. home.phpを作る
+4. 記事一覧のループの中身を作る
